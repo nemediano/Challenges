@@ -17,7 +17,7 @@ def verlet(F, m, x0, v0, Dt=.01, t_max=5):
     '''
     Apply Verlet Integration
     '''
-    nsteps = tmax / Dt
+    nsteps = int(t_max / Dt)
     
     x = np.zeros( (nsteps + 1) )
     v = np.zeros( (nsteps + 1) )
@@ -42,3 +42,4 @@ if __name__ == "__main__":
     plt.plot(t,x)
     plt.xlabel(r"$t$", size=18)
     plt.ylabel(r"$x$", size=18)
+	plt.show()
