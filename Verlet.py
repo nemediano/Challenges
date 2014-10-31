@@ -7,7 +7,10 @@ Created on Fri Oct 31 18:15:02 2014
 
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib import rcParams
 
+rcParams['font.family'] = 'serif'
+rcParams['font.size'] = 16
 
 def spring(x):
     k = 1.0
