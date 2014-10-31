@@ -42,4 +42,4 @@ if __name__ == "__main__":
     plt.plot(t,x)
     plt.xlabel(r"$t$", size=18)
     plt.ylabel(r"$x$", size=18)
-	plt.show()
+    plt.show()
