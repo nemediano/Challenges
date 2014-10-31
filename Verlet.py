@@ -39,7 +39,5 @@ if __name__ == "__main__":
     
     t, x = verlet(spring, 1.0, 1.0, 0.0, Dt=.01, t_max=5)
 
-    plt.plot(t,x)
-    plt.xlabel(r"$t$", size=18)
-    plt.ylabel(r"$x$", size=18)
-    plt.show()
+U=np.vstack([t,x])
+np.savetxt("ooutput.dat",U.T)
