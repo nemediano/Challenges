@@ -12,5 +12,5 @@ We want to create a [Verlet Integrator](http://en.wikipedia.org/wiki/Verlet_inte
 ## Authors
 
 - [Nicolas Guarin Zapata](https://github.com/nicoguaro)
-
+- [Christopher Dean Hagmann](https://github.com/cdhagmann)
 
